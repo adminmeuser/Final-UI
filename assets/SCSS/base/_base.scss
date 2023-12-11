@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+}
+.be-main {
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    margin: 0px auto;
+}
+.be-container1 {
+    width: 1000px;
+    height: 100px;
+    margin: 0px auto;
+   
+   
+}
+
+.be-container2 {
+    width: 1000px;
+    height: 280px;
+    background-image: url(Images/our-vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    &__content {
+      width: 500px;
+      height: 0px;
+      color: white;
+      margin: 0px;
+      padding: 30px;
+      
+    }
+    &__a {
+        text-decoration: none;
+        margin: 10px;
+        color: deepskyblue;
+
+    }
+    &__a:hover {
+        color: red;
+    }
+    &__arrow {
+        padding: 20px;
+        display: flex;
+        margin: 5px;
+       
+        &--img {
+            
+                width:20px;
+                height:20px ;
+                background-color: azure; 
+                padding: 5px;
+                cursor: pointer;
+                margin: 5px;
+            }
+        }
+    } 
+    
+
+
+  .be-container3 {
+    width: 1000px;
+    height: 350px;
+    background-color: white;
+
+    &__heading {
+        color:midnightblue;
+        padding: 20px; margin: 20px;
+        height: 0px;
+    }
+    &__content {
+        display: flex;
+
+        &--left {
+           width: 60%;
+        }
+        &--right {
+            width: 40%;
+            height: 200px;
+            background-image: url(Images/folder.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+  }
+ 
+
+  @mixin desktop{
+    @media screen and (min-width: 1001px) and (max-width: 1500px){
+      @content;
+    }
+  }
+  
+  @mixin mobile{
+    @media screen and (min-width: 50px) and (max-width:768px){
+        @content;
+    }
+  }
+  
+  @mixin tablet{
+    @media screen and (min-width: 769px) and (max-width: 1000px){
+      @content;
+    }
+  }
+  
+  

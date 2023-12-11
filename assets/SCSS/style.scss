@@ -1,0 +1,19 @@
+//base
+@import './base/base';
+
+//atom
+@import './atom/button';
+
+//molecule
+@import './molecule/approch-mol.scss';
+@import './molecule/model-mol';
+
+
+
+//organism
+@import './organism/header';
+@import './organism/approach-org.scss';
+@import  './organism/model-org';
+@import './organism/benx-org';
+@import './organism/demo-org';
+@import './organism/places-org';

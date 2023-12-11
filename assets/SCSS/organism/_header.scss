@@ -1,0 +1,225 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 20px;
+    background-color: white;
+    font-size: small;
+    
+}
+hr {
+    width: 970px;
+}
+
+.icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.be-container1-header__mainsection {
+    width: 900px;
+    height: 65px;
+   
+
+    &--top {
+        width: 900px;
+        height: 50%;
+        background-color: white;
+    }
+    &--bottom {
+        width: 900px;
+        height: 50%;
+        background-color: white;
+   &--logo {
+    width: 100px;
+    padding: 1px;
+}
+    }
+}
+
+.be-container1-header__hamburger  {
+    display:none;
+}
+.be-container1-header__hamburger img {
+width: 15px;
+height: 15px;
+cursor: pointer;
+
+}
+.nav__mainsection--top ul {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 450px;
+    list-style-type: none;
+    width: 510px;
+}
+.nav__mainsection--top li {
+    padding: 0 10px;
+       
+}
+.nav__mainsection--top a {
+    text-decoration: none;
+    color: #333;
+}
+.nav__mainsection--top :hover {
+    color: black;
+}
+.nav__mainsection--bottom ul {
+    display: flex;
+    width: 640px;
+    margin-top: -31px;
+    margin-left: 330px;
+    list-style-type: none;
+    
+    }
+.nav__mainsection--bottom li {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.nav__mainsection--bottom a {
+    text-decoration: none;
+    color: rgb(18, 18, 37);
+    font-weight: lighter;
+}
+.nav__mainsection--bottom :hover {
+    color: #333;
+}
+
+
+
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+    .be-container1-header__hamburger  {
+        display:none;
+    }
+    .be-container1-header__hamburger img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    
+    }
+    .nav__mainsection--top ul {
+        display: flex;
+        margin-top: -35px;
+        margin-left: 380px;
+        list-style-type: none;
+        width: 510px;
+    }
+    .nav__mainsection--top li {
+        padding: 0 10px;
+           
+    }
+    .nav__mainsection--top a {
+        text-decoration: none;
+        color: #333;
+    }
+    .nav__mainsection--top :hover {
+        color: black;
+    }
+    .nav__mainsection--bottom ul {
+        display: flex;
+        width: 640px;
+        margin-top: -31px;
+        margin-left: 270px;
+        list-style-type: none;
+        
+        }
+    .nav__mainsection--bottom li {
+        padding: 0 10px;
+        font-weight: bold;
+    }
+    
+    .nav__mainsection--bottom a {
+        text-decoration: none;
+        color: darkblue;
+    }
+    .nav__mainsection--bottom :hover {
+        color: #333;
+    }
+   
+
+}
+
+@media screen and (min-width: 50px) and (max-width: 768px) {
+   
+    .be-container1-header__hamburger {
+        display:block;
+        text-align: right;
+        padding: 10px;
+        margin-top: -40px;
+        width: 870px;
+     } 
+    nav ul {
+         display: none;
+         list-style-type: none;
+         padding: 10px;
+         margin: 10px;
+}
+     nav li {
+        display: none;
+        margin-left: 20px;
+}
+hr {
+    display: none;
+}
+
+.be-container1-header__mainsection--bottom--logo {
+    margin-top: 40px;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .be-container1-header__hamburger  {
+        display:none;
+    }
+    .be-container1-header__hamburger img {
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    
+    }
+    .nav__mainsection--top ul {
+        display: flex;
+        margin-top: -30px;
+        margin-left: 380px;
+        list-style-type: none;
+    }
+    .nav__mainsection--top li {
+        padding: 0 10px;
+           
+    }
+    .nav__mainsection--top a {
+        text-decoration: none;
+        color: #333;
+    }
+    .nav__mainsection--top :hover {
+        color: black;
+    }
+    .nav__mainsection--bottom ul {
+        display: flex;
+        margin-top: -25px;
+        margin-left: 285px;
+        list-style-type: none;
+        }
+    .nav__mainsection--bottom li {
+        padding: 0 10px;
+        font-weight: bold;
+    }
+    
+    .nav__mainsection--bottom a {
+        text-decoration: none;
+        color: darkblue;
+    }
+    .nav__mainsection--bottom :hover {
+        color: #333;
+    }
+
+    hr {
+        display: none;
+    }
+    .be-container1-header__mainsection--bottom--logo {
+        margin-top: 40px;
+    }
+
+}

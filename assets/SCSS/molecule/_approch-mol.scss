@@ -1,0 +1,37 @@
+.be-container4__bottom {
+    display: flex;
+    width: 900px; height: 400px;
+    
+
+    &--card {
+        width: 20%;
+        height: 300px;
+        margin: 20px;
+        padding: 20px;
+
+        &__img {
+            width: 30px;
+            height: auto;
+            padding: 10px;
+            
+        }
+    
+        &__header {
+            height: 0px;
+            margin-top: 0px;
+            padding: 10px;
+
+        }
+        &__para {
+            width: 140px;
+            margin-top: 20px;
+            padding: 10px;
+
+        }
+    }
+
+}
+.bg2 {
+    background-color:rgb(26, 71, 167) ;
+    color: white;
+}

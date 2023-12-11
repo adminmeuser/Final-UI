@@ -1,0 +1,121 @@
+.be-container4 {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(7, 7, 70);
+
+    &__div {
+        display: flex;
+     
+        width: 900px;
+        height: auto;
+
+        &--left {
+            width: 40%;
+
+        }
+        &--right {
+           width: 60% ;
+           color: rgb(199, 207, 207);
+        }
+
+        
+    }
+
+
+    &__content {
+        color: white;
+        padding: 20px;
+        height: 0px;
+       
+        
+
+    }
+
+    &__bottom {
+        display: flex;
+        width: 900px; height: 400px;
+        
+    
+        &--card {
+            width: 30%;
+            height: 350px;
+            margin: 20px;
+            
+            padding: 25px;
+    
+            &__img {
+                width: 30px;
+                height: auto;
+                padding: 10px;
+                
+            }
+        
+            &__header {
+                height: 20px;
+                margin-top: 0px;
+                padding: 10px;
+    
+            }
+            &__para {
+                width: 140px;
+                margin-top: 20px;
+                padding: 10px;
+    
+            }
+        }
+    
+    }
+
+}
+.bg2 {
+    background-color:rgb(26, 71, 167) ;
+    color: rgb(207, 204, 199);
+}
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+    .be-container4 {
+        height: auto;
+    }
+}
+
+
+@media screen  and (min-width: 50px) and (max-width:768px) {
+    .be-container4 {
+        height: auto;
+    }
+    .be-container4__bottom {
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        padding: 20px;
+        align-items: center;
+        height: auto;
+     
+    &--card {
+        height: auto;
+    }
+}
+
+}
+@mixin tablet{
+    @media screen and (min-width: 769px) and (max-width: 1000px){
+        .be-container4 {
+            height: auto;
+        }
+        .be-container4__bottom {
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+            padding: 20px;
+            align-items: center;
+            height: auto;
+         
+        &--card {
+            height: auto;
+        }
+    }
+    
+    }}
+
+
+
+

@@ -1,0 +1,90 @@
+.be-container5 {
+    width: 1000px;
+    height: 900px;
+    background-color: white;
+   
+   
+
+    &__mainSec {
+        width: 900px;
+        height: 400px;
+        display: flex;
+        
+
+
+        &--left {
+            width: 60%;
+            height: 600px;
+            background-image:url(Images/mod.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        &--right {
+            width: 40%;
+            height: auto;
+            color: rgb(119, 126, 126);
+            
+        
+            &__card {
+             padding: 20px;
+            
+        
+             &--head {
+                display: flex;
+             }
+            }
+        }
+
+
+    }
+
+}
+hr {
+    width: auto;
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+    .be-container5 {
+        height: auto;}
+        
+    .be-container5__mainSec--right__card {
+        height: auto;
+    }
+    }
+
+
+@media screen  and (min-width: 50px) and (max-width:768px) {
+    .be-container5 {
+        height: auto;
+    }
+    .be-container5__mainSec {
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center;
+        margin: 50px;
+        padding: 20px;
+        align-items: center;
+        height: auto;
+     
+}
+
+}
+@mixin tablet{
+    @media screen and (min-width: 769px) and (max-width: 1000px){
+        .be-container5 {
+            height: auto;
+        }
+        .be-container5__mainSec {
+            display: flex;
+            flex-direction: column-reverse; 
+            align-items: center;
+            margin: 50px;
+            padding: 20px;
+            align-items: center;
+            height: auto;
+         
+    }
+    
+    }}

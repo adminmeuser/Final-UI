@@ -1,0 +1,57 @@
+.be-container7 {
+    width: 1000px;
+    height: 400px;
+    background-color: darkgray;
+    color: rgb(51, 54, 54);
+
+    &__mainSec {
+        display: flex;
+        width: 900px;
+    }
+}
+.bg3 {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+   
+}
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+    .be-container7 {
+        height: auto;
+
+        
+    }}
+
+@media screen  and (min-width: 50px) and (max-width:768px) {
+    .be-container7 {
+        height: auto;
+
+        &__mainSec {
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+            padding: 20px;
+            align-items: center;
+            height: auto;
+        }
+    }
+     
+        
+    
+}
+@mixin tablet{
+    @media screen and (min-width: 769px) and (max-width: 1000px){
+        .be-container7 {
+            height: auto;
+    
+            &__mainSec {
+                display: flex;
+                flex-direction: column;
+                margin: 50px;
+                padding: 20px;
+                align-items: center;
+                height: auto;
+            }
+    }
+  }
+}

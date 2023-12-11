@@ -1,0 +1,46 @@
+.be-container5__demo {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    padding: 40px;
+    
+
+
+    &--card {
+        width: 50%;
+        height: 200px;
+        margin: 15px;
+    }
+    &__form {
+        width: 300px; height: 30px;
+
+    &--new {
+        width: 642px; 
+        height: 100px; 
+        margin-top: -200px; 
+        margin-left: -240px;
+    }
+    }
+
+    &--head {
+        color: rgb(3, 3, 88);
+        width: 200px;
+    }
+    &--para {
+        text-align: justify;
+    }
+    &--btn {
+       margin-left: -270px;
+       width: 100px;
+       height: 30px;
+     
+      
+    }
+}
+.vl {
+    border-left: 1px solid gray;
+    height: 340px;
+  }
+  .bg4 {
+    height: 550px;
+  }

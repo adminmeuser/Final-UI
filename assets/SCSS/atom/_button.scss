@@ -1,0 +1,16 @@
+.be-container1-header__button {
+    display: inline-block; margin: -6px; padding: 3px; margin-left: -15px;
+    position: relative;
+    background-color: rgb(7, 7, 70);
+    border: 1px;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.4s;
+    
+}
+.be-container1-header__button:hover {
+    background-color:green;
+}
+
+
